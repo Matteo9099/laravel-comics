@@ -1,0 +1,40 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+
+    img{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    ul{
+        display: flex;
+
+        li{ 
+            margin: 0 10px;
+            list-style-type: none;
+        }
+
+        a{
+            text-decoration: none;
+            padding: 37px 0;
+            color: $primaryColor;
+            font-family: fantasy;
+
+            &.current{
+                color: $secondaryColor;
+                border-bottom: 5px solid $secondaryColor;
+            }
+
+            &:hover{
+                color: $secondaryColor;
+                border-bottom: 5px solid $secondaryColor;
+            }
+        }
+    }
+}
