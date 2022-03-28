@@ -12,3 +12,5 @@ $links = [
             ['text'=> "NEWS", 'current' => false ],
             ['text'=> "SHOP", 'current' => false ],
         ];
+
+        return ($links);
