@@ -9,7 +9,8 @@
 </head>
 <body>
     
-    @include('partials.header')
+
+    @include('partials.header.header')
 
     <main>
         @yield('content')

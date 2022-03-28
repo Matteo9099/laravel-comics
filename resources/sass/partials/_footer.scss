@@ -1,0 +1,41 @@
+#footer_top{
+    background: url('../../assets/img/footer-bg.jpg') no-repeat;
+    background-size: cover;
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 25px 0;
+        padding-right: 100px;
+
+        section {
+            margin: 0 20px;
+
+            h3{
+                margin: 15px 0;
+                color: #fff;
+            }
+
+            ul{
+                display: inline-block;
+                list-style-type: none;
+
+                li{
+                    padding: 3px 0;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 0.8rem;
+                        color: rgb(189, 184, 184);
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+    

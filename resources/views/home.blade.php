@@ -2,8 +2,14 @@
 
 @section('pageTitle', 'Home page')
 
-@section('content')
-   
-    
-@endsection
+<main>
+
+    @section('content')
+
+        Contenuto Centale
+
+    @endsection
+
+</main>
+
 
