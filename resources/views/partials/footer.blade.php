@@ -7,22 +7,20 @@
         <div class="container d-flex d-center">
             <nav>
 
-                <h3>Dc comics</h3>
-                <ul>
-                    <li>
-                        <a href="#">Characters</a>
-                    </li>
-                    <li>
-                        <a href="#">Characters</a>
-                    </li>
-                    <li>
-                        <a href="#">Characters</a>
-                    </li>
-                    <li>
-                        <a href="#">Characters</a>
-                    </li>
-                </ul>
+                @foreach ($links as $link )
+                <h3>{{ $link['title'] }}</h3>
                 
+
+                <ul>
+                    @foreach ($links as $text)
+                    <li>
+                        <a href="$link">{{ $text['texts'][1] }}</a>
+                    </li>
+                    @endforeach
+
+                    @endforeach
+                </ul>
+
             </nav>
         </div>
     </section>

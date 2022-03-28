@@ -48,3 +48,5 @@ $links = [
                     ]
                 ]
         ];
+
+        return ($links);
