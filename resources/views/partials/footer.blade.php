@@ -7,14 +7,13 @@
         <div class="container d-flex d-center">
             <nav>
 
-                @foreach ($links as $link )
+                @foreach ($links as $link)
                 <h3>{{ $link['title'] }}</h3>
                 
-
                 <ul>
-                    @foreach ($links as $text)
+                    @foreach ($link['links'] as $link)
                     <li>
-                        <a href="$link">{{ $text['texts'][1] }}</a>
+                        <a href="{{$link['route']}}">{{ $link['text'] }}</a>
                     </li>
                     @endforeach
 

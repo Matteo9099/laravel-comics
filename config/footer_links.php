@@ -1,52 +1,52 @@
 <?php
 
 $links = [
-      // link nav 1
-            [
-                'title'=> "DC COMICS",
-                'texts' => [
-                    'Characters',
-                    'Comics',
-                    'Movies',
-                    'TV',
-                    'Games',
-                    'Videos',
-                    'News'
-                ],
-            ],
-                // link nav 2
-            [
-                'title'=> "SHOP",
-                'texts' => ['Shop DC', 'Shop DC Collectibles']
-            ],
-                // link nav 3
-            [
-                'title'=> "DC",
-                'texts' => [
-                    'Terme Of Use',
-                    'Privacy policy(New)',
-                    'Ad Choices',
-                    'Advertisting',
-                    'Jobs',
-                    'Subscriptions',
-                    'Talent Workshops',
-                    'CPSC Certificates',
-                    'Ratings',
-                    'Shop Help',
-                    'Contact Us'
-                ],
-            ],
-                // link nav 4
-                [
-                    'title'=> "SITES",
-                    'texts' => [
-                        'DC',
-                        'MAD Magazine',
-                        'DC kids',
-                        'DC Universe',
-                        'DC Power Visa'
-                    ]
-                ]
+     
+    [
+        'title' => 'DC Comics',
+        'links' => [
+           ['text' => 'Characters', 'route' => 'characters'],
+           ['text' => 'Comic', 'route' => 'comic'],
+           ['text' => 'Movies', 'route' => 'movies'],
+           ['text' => 'TV', 'route' => 'tv'],
+           ['text' => 'Games', 'route' => 'games'],
+           ['text' => 'Videos', 'route' => 'videos'],
+           ['text' => 'News', 'route' => 'news'],
+        ]
+     ],
+     [
+        'title' => 'Shop',
+        'links' => [
+           ['text' => 'Shop DC', 'route' => 'shop'],
+           ['text' => 'Shop DC Collectibles', 'route' => 'shop_collectibles'],
+        ]
+     ],
+     [
+        'title' => 'DC',
+        'links' => [
+           ['text' => 'Therms Of Use', 'route' => 'therms'],
+           ['text' => 'Privacy Policy', 'route' => 'privacy_policy'],
+           ['text' => 'AD Choice', 'route' => 'ads_choice'],
+           ['text' => 'Advertising', 'route' => 'adv'],
+           ['text' => 'Jobs', 'route' => 'jobs'],
+           ['text' => 'Subscriptions', 'route' => 'subscriptions'],
+           ['text' => 'Talent Workshop', 'route' => 'workshop'],
+           ['text' => 'CPSC Certificates', 'route' => 'certificates'],
+           ['text' => 'Ratings', 'route' => 'ratings'],
+           ['text' => 'Shop Help', 'route' => 'shop_help'],
+           ['text' => 'Contact Us', 'route' => 'contacts'],
+        ]
+     ],
+     [
+        'title' => 'Sites',
+        'links' => [
+           ['text' => 'DC', 'route' => 'dc'],
+           ['text' => 'MAD Magazine', 'route' => 'mad_magazine'],
+           ['text' => 'DC Kids', 'route' => 'dc_kids'],
+           ['text' => 'DC Universe', 'route' => 'dc_universe'],
+           ['text' => 'DC Power Visa', 'route' => 'power_visa'],
+        ],
+     ],
         ];
 
         return ($links);
