@@ -86,6 +86,7 @@ header ul a:hover {
 #footer_top nav .section_link h3 {
   margin: 15px 20px;
   color: #fff;
+  text-transform: uppercase;
 }
 #footer_top nav .section_link ul {
   display: inline-block;
@@ -109,7 +110,7 @@ header ul a:hover {
   max-height: 400px;
 }
 #footer_top .logo_dc_bg {
-  background: url("../../assets/img/dc-logo-bg.png") no-repeat;
+  background: url("../image/dc-logo-bg.png") no-repeat;
   background-size: cover;
   width: 500px;
 }

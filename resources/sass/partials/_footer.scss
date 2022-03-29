@@ -18,6 +18,7 @@
             h3{
                 margin: 15px 20px;
                 color: #fff;
+                text-transform: uppercase;
             }
 
             ul{
@@ -49,7 +50,7 @@
     }
 
     .logo_dc_bg{
-        background: url('../../assets/img/dc-logo-bg.png') no-repeat;
+        background: url('../image/dc-logo-bg.png') no-repeat;
         background-size: cover;
         width: 500px;
     }
