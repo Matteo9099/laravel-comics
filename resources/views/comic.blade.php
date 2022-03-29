@@ -7,7 +7,9 @@
     <div class="jumbotron"></div>
 
     <div class="container">
-        <img src="{{$comic['thumb']}}" alt="">
+        <div class="figurina container-fluid">
+            <img class="cover_fumetto" src="{{$comic['thumb']}}" alt="">
+        </div>
         
         <div class="descrizione">
             <h3>{{$comic['title']}}</h3>

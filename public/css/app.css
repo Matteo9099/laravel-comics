@@ -210,3 +210,10 @@ section nav ul li a img {
 section nav ul li a span {
   font-size: 0.8rem;
 }
+
+.figurina {
+  background-color: #2665ee;
+}
+.figurina .cover_fumetto {
+  margin-top: -200px;
+}
