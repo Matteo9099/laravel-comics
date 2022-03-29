@@ -3,24 +3,29 @@
 @endphp
 
 <footer>
-    <section id="footer_top">
-        <div class="container d-flex d-center">
+    <div id="footer_top">
+        <div class="container">
             <nav>
+                <div class="section_link">
 
-                @foreach ($links as $link)
-                <h3>{{ $link['title'] }}</h3>
-                
-                <ul>
-                    @foreach ($link['links'] as $link)
-                    <li>
-                        <a href="{{$link['route']}}">{{ $link['text'] }}</a>
-                    </li>
+                    
+                    @foreach ($links as $link)
+                    <h3>{{ $link['title'] }}</h3>
+                    <ul>
+                        @foreach ($link['links'] as $link)
+                        <li>
+                            <a href="{{$link['route']}}">{{ $link['text'] }}</a>
+                        </li>
+                        @endforeach
+    
+                    </ul>
                     @endforeach
 
-                    @endforeach
-                </ul>
-
+                </div>
             </nav>
+
+                <div class="logo_dc_bg"></div>
+
         </div>
-    </section>
+    </div>
 </footer>

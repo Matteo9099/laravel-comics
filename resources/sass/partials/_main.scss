@@ -1,0 +1,74 @@
+.jumbotron{
+    background: url('../image/jumbotron.jpg') no-repeat;
+    background-size: cover; 
+    height: 350px;
+}
+
+section{        
+    background-color: $primaryColor;
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    
+         h2{
+            color:#fff;
+            background-color: $secondaryColor;
+            padding: 8px 14px;
+            text-transform: uppercase;
+            margin-top: -20px;
+
+            &:hover{
+              box-shadow: 2px 2px #fff;
+            }
+        }
+
+        #load-more{
+            color:#fff;
+            background-color: $secondaryColor;
+            margin: 15px auto;
+            padding: 7px 35px;
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+
+             &:hover{
+                 box-shadow: 2px 2px #fff;
+                 cursor: pointer;
+            }
+        }
+    }
+   
+}
+
+// card regole 
+.card{
+    display: inline-block;
+    width: calc(100% / 6 - 20px);
+    margin: 25px 10px;
+    transition: 0.3s;
+
+    &:hover{
+        box-shadow: 2px 2px 5px $secondaryColor;
+        transform: scale(0.9);
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+
+        .card-thumb {
+            height: 200px;
+            width: 200px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        p{
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+    }
+}

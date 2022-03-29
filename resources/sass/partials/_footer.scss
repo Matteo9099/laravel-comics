@@ -9,17 +9,21 @@
         margin: 25px 0;
         padding-right: 100px;
 
-        section {
-            margin: 0 20px;
+        .section_link {
+            display: flex;
+            max-height: 370px;
+            flex-direction: column;
+            flex-wrap: wrap;
 
             h3{
-                margin: 15px 0;
+                margin: 15px 20px;
                 color: #fff;
             }
 
             ul{
                 display: inline-block;
                 list-style-type: none;
+                margin: 0 20px;
 
                 li{
                     padding: 3px 0;
@@ -37,5 +41,18 @@
             }
         }
     }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        max-height: 400px;
+    }
+
+    .logo_dc_bg{
+        background: url('../../assets/img/dc-logo-bg.png') no-repeat;
+        background-size: cover;
+        width: 500px;
+    }
+
 }
     

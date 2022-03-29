@@ -1,0 +1,38 @@
+section nav {
+    background-color: $secondaryColor;
+    // padding: 30px 0;
+    color: #fff;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+
+        li{
+            display: flex;
+            align-items: center;
+
+            &:hover{
+                background-color: rgb(53, 172, 241);
+            }
+
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: #fff;
+                padding: 30px 5px;
+
+
+                img{
+                    height: 50px;
+                    margin-right: 10px;
+                }
+
+                span{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
