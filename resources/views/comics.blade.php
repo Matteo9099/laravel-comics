@@ -19,8 +19,10 @@
                 {{-- Creazione dinamica Card --}}
                 @foreach ($comics as $index => $comic)
                     <div class="card">
-                        <img class="card-thumb" src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                        <a>{{$comic['series']}}</a>
+                        <a href="{{ route('comic', ['id' => $index]) }}">
+                            <img class="card-thumb" src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                            <span>{{$comic['series']}}</span>
+                        </a>
                     </div>
                 @endforeach
         
@@ -30,7 +32,7 @@
 
         </section>
 
-    @include('  navMainMenu')
+    @include('navMainMenu')
 
 @endsection
 

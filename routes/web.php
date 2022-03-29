@@ -15,6 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comics = config('comic');
+
     // creo array comics
     return view('comics', compact('comics'));
-});
+})->name('comics');
+
+
+Route::get('/comics/{id}', function($id) {
+    $comics = config('comics');
+
+    $comic = $comics[$id];
+
+    return view('comic', compact('comic'));
+})->name('comic');

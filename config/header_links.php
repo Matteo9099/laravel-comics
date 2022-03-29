@@ -1,16 +1,16 @@
 <?php
 
 $links = [
-            ['text'=> "CHARACTERS", 'current' => false ],
-            ['text'=> "COMICS", 'current' => true ],
-            ['text'=> "MOVIES", 'current' => false ],
-            ['text'=> "TV", 'current' => false ],
-            ['text'=> "GAMES", 'current' => false ],
-            ['text'=> "COLLECTIBLES", 'current' => false ],
-            ['text'=> "VIDEOS", 'current' => false ],
-            ['text'=> "FANS", 'current' => false ],
-            ['text'=> "NEWS", 'current' => false ],
-            ['text'=> "SHOP", 'current' => false ],
+            ['text'=> "CHARACTERS", 'route' => "characters"], 
+            ['text'=> "COMICS", 'route' =>  "comics"], 
+            ['text'=> "MOVIES", 'route' => "movies" ], 
+            ['text'=> "TV", 'route' => "tv" ], 
+            ['text'=> "GAMES", 'route' => "games" ],
+            ['text'=> "COLLECTIBLES", 'route' => "collectibles" ], 
+            ['text'=> "VIDEOS", 'route' => "videos" ], 
+            ['text'=> "FANS", 'route' => "fans" ], 
+            ['text'=> "NEWS", 'route' => "news"], 
+            ['text'=> "SHOP", 'route' => "shop"],
         ];
 
         return ($links);
