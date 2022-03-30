@@ -1,0 +1,47 @@
+.section{
+        background-color: rgb(247, 242, 226);
+    
+    .container-group{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px 70px;
+
+        .talent, .specs{
+            width: 50%;
+            a{
+                text-decoration: none;
+            }
+        }
+
+        .details_art{
+            display: flex;
+            padding: 10px 0;
+            border-bottom: 2px solid#000;
+            margin: 20px 50px 20px 0;
+        }
+
+        .details_writer{
+            display: flex;
+        }
+
+        p{
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .details_series{
+            display: flex;
+            padding: 7px 0;
+            border-bottom: 2px solid#000;
+            margin: 20px 0;
+
+            a{
+                margin-left: 20px;
+            }
+        }
+
+
+    }
+
+}

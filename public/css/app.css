@@ -217,3 +217,72 @@ section nav ul li a span {
 .figurina .cover_fumetto {
   margin-top: -200px;
 }
+
+.descrizione {
+  padding-top: 40px;
+}
+.descrizione h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-family: fantasy;
+}
+.descrizione .sold {
+  display: flex;
+  justify-content: space-between;
+  background-color: #558a06;
+  margin: 20px 0;
+  border-bottom: 2px solid lightgrey;
+}
+.descrizione .sold .price_status {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  color: #e5e2e2;
+  padding: 15px 20px;
+  border-right: 2px solid lightgray;
+}
+.descrizione .sold .price {
+  color: #fff;
+  font-weight: bold;
+}
+.descrizione .sold .status_check {
+  padding: 15px 40px 0;
+}
+
+.section {
+  background-color: #f7f2e2;
+}
+.section .container-group {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 70px;
+}
+.section .container-group .talent, .section .container-group .specs {
+  width: 50%;
+}
+.section .container-group .talent a, .section .container-group .specs a {
+  text-decoration: none;
+}
+.section .container-group .details_art {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 2px solid #000;
+  margin: 20px 50px 20px 0;
+}
+.section .container-group .details_writer {
+  display: flex;
+}
+.section .container-group p {
+  width: 60%;
+  margin: 0 auto;
+}
+.section .container-group .details_series {
+  display: flex;
+  padding: 7px 0;
+  border-bottom: 2px solid #000;
+  margin: 20px 0;
+}
+.section .container-group .details_series a {
+  margin-left: 20px;
+}
